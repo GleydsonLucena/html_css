@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt0br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-size: 2.5vw;
+        }
+
+        table{
+            width: 300px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            background-color: #454545;
+            color: white;
+            text-shadow: 0px 10px 10px black;
+            padding: 10px;
+            
+        }
+
+        tbody > tr > td, tfoot td{
+            border: 2px solid black;
+            width: 100px;
+            text-align: center;
+            vertical-align: middle;
+            padding: 10px;
+        }
+
+        tfoot {
+            color: white;
+            text-shadow: 0px 10px 10px black;
+            padding: 10px;
+            background-color: rgb(69, 69, 69);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de células</h1>
+    
+    <table>
+       
+        <caption>
+            Tabela teste
+        </caption>
+        
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td colspan="2">B</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="3">D</td>
+                <td>E</td>
+                <td rowspan="2">F</td>
+            </tr>
+            <tr>
+        
+                <td>H</td>
+                
+            </tr>
+            <tr>
+                
+                <td colspan="2">K</td>
+                
+            </tr>
+        </tbody>
+    <tfoot>
+        <th>
+            <tr>
+                <td>&copy;Gleydson Lucena</td>
+                <td></td>
+            </tr>
+        </th>
+    </tfoot>
+    </table>
+</body>
+</html>
