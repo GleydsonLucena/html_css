@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda Tabela</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        table {
+            margin: auto;
+            border: 3px solid black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.5em;
+            width: 80vw;
+            border-collapse: collapse;
+        }
+
+        caption {
+            margin-top: 50px;
+            background-color: darkgrey;
+            padding: 10px;
+            border-radius: 20px 20px 0px 0px;
+            font-family: cursive;
+            text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.459);  
+        }
+
+        thead th{
+            text-align: center;
+            padding: 10px;
+
+            text-shadow: 0px 0px 10px black;
+            border: 1px solid black;
+            background-color: rgb(100, 100, 100);
+            color: white;
+        }
+
+        tbody td {
+            border: 2px solid black;
+            text-align: center;
+        }
+
+        tfoot {
+            background-color: darkgray;
+            border: 2px solid black;
+        }
+
+        tfoot th {
+            padding: 10px;
+            text-shadow:0px 0px 10px black;
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: white; 
+        }
+
+        a:hover {
+            background-color: rgba(127, 255, 212, 0.548);
+            padding: 5px;
+            border-radius: 20px 0px 20px 0px;
+        }
+
+        td:hover {
+            background-color: rgba(127, 255, 212, 0.548);
+        }
+            
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            Mesclagem de Células 02 
+        </caption>
+        <thead>
+            <tr>
+                <th colspan="5">Números</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="4">A</td>
+                <td rowspan="4">B</td>
+            </tr>
+            <tr>
+                <td rowspan="4">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>K</td>
+                <td>L</td>
+            </tr>
+            <tr>
+                <td colspan="4">M</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <th colspan="5">
+                &copy;<a href="https://www.instagram.com/gleydson.lucena/" target="_blank">Gleydon Lucena</a>
+            </th>
+        </tfoot>
+
+    </table>
+    
+</body>
+</html>
