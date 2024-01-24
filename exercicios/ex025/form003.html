@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html, body {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            background-image: linear-gradient(to  bottom, rgb(34, 34, 34), rgb(0, 0, 0))
+        }
+
+        .conteiner {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 400px;
+            min-height: 70vh;
+
+            
+            text-align: center;
+        }
+
+        .caixa {
+            background-color: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.726);
+        }
+
+        h1 {
+            padding-bottom: 30px;
+            color: white;
+            text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.774);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        hr {
+            position: relative;
+            left: 6%;
+            border-color: #000000;
+            box-sizing: border-box;
+            width: 80%;
+            margin: 10px;
+        }
+
+        #inome, #imedia, #idia {
+            padding: 10px;
+            width: 70%;
+            border-radius: 10px;
+        }
+
+        .btn {
+            position: relative;
+            width: 60px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-right: 5px;
+            background-color: rgb(41, 40, 40);
+            color: white;
+            font-family: sans-serif;
+            text-shadow: 0px 1px 1px white  ;
+            border: 0px;
+            border-radius: 20px 20px ;
+        }
+
+        .btn:hover {
+            box-shadow: 0px 5px 10px rgba(70, 70, 70, 0.452);
+            background-color: rgba(128, 128, 128, 0.438);
+            border: 0px;
+            
+            border: 2px solid rgba(22, 22, 22, 0.616);
+            color: black;
+            transform: translate(5px );
+            transition: transform .5s, border .3s;
+            
+        }
+
+       
+        
+        
+    </style>
+</head>
+<body>
+    <main class="conteiner">
+        <h1>Formulário do aluno</h1>
+        <form class="caixa" action="cadastro.php" method="get">
+            <p>
+                <input autocomplete="username" placeholder="Nome de usuário" type="text" name="Nome" id="inome">
+            </p>
+            <hr>
+            <p>
+                <input type="number" name="media" id="imedia" placeholder="Média" min="0" max="10.0" step="0.5">
+            </p>
+            <hr>
+            <p>
+                <input type="date" name="dia" id="idia">
+            </p>
+            <hr>
+           <p>
+                <input class="btn" type="submit" value="Enviar">
+                <input class="btn" type="reset" value="Limpar">
+           </p>
+        </form>
+    </main>
+
+</body>
+</html>
