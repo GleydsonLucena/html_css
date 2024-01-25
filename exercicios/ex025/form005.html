@@ -7,16 +7,44 @@
 </head>
 <body>
     <h1>Testes de Formulário</h1>
-    <form action="cadastro.php" method="get">
+    <form action="" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
 
-        <fieldtest>
-            <legend></legend>
+            <input type="radio" name="sexo" id="isexom" checked>
+
+            <label for="isexom">Masculino</label> <br>
+
+            <input  type="radio" name="sexo" id="isexof">
+
+            <label for="isexof">Feminino</label> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="basquete" id="ibasquete"> 
+
+            <label for="ibasquete">Basquete</label> <br>
+            
+            <input type="checkbox" name="futebol" id="ifutebol">
+
+            <label for="ifutebol">Futebol</label> <br>
+
+            <input type="checkbox" name="natação" id="inatação">
+            
+            <label for="inatação">Natação</label> <br>
+
+            <input type="checkbox" name="tenis" id="itenis"> 
+            
+            <label for="itenis">Tênis</label> 
+
+        </fieldset>
             <p></p>
             <p>
                 <input type="submit" value="Enviar">
                 <input type="reset" name="limpar" id="ilimpar" value="Limpar">
             </p>
-        </fieldtest>
+        
 
     </form>
 
