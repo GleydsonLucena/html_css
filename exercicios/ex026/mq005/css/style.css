@@ -30,12 +30,25 @@ html, body {
 }
 
 header {
-    display: flex;
-    flex-direction: column;
     background-color: var(--cor1);
     color: var(--cor2);
     padding: 10px 10px 20px 10px;
 }
+
+div.nomes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nick {
+    align-items: center;
+    width: 80vw;
+    justify-content: flex-end;
+    background-color: aqua;
+}
+
 
 header .logo {
     width: 50px;
@@ -47,6 +60,7 @@ header #pesq {
     border-radius: 20px;
     width: 85vw;
     border: none;
+    justify-content: flex-start;
 }
 
 article .imagens-rtx {
