@@ -66,9 +66,9 @@ span#menu-burguer {
 }
 
 menu#navbar{
-    position: absolute;
-    float: right;
     display: flex;
+    position: absolute;
+    top: 19.5vh;
     width: 100vw;
     justify-content: flex-end;
     margin: 0;

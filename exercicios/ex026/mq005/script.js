@@ -1,12 +1,11 @@
-const menu = document.getElementById('menu-burguer')
-const navbar = document.getElementById('navbar')
+const menu = document.querySelector('#nome')
 
-menu.addEventListener('click', click())
+menu.addEventListener('click', onclick())
 
-function click() {
-    if (navbar.style.display == 'flex') {
-        navbar.style.display = 'none'
-    } else {
+function onclick() {
+    if (navbar.style.display == 'none') {
         navbar.style.display = 'flex'
+    } else {
+        navbar.style.display = 'none'
     }
 }
