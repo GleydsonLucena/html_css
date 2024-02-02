@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width='device-width', initial-scale=1.0">
-    <title>Artigo RTX</title>
+    <title>Artigo com Media Query</title>
 
     <!-- Links -->
 
@@ -15,126 +15,44 @@
 </head>
 <body>
     <header>
-        <div class="nomes">
-            <h1 id="nome">Gleydson <br>
-            Lucena</h1>
-           
-        </div>
+        <h1>Meu site</h1>
 
-        <span id="menu-burguer" class="material-symbols-outlined">
-            menu
-            </span>
-
-            <menu id="navbar">
-                <ul id="itens-nav">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Ficha técnica da RTX 4090</a></li>
-                    <li><a href="#">Especificações técnicas da RTX 4090</a></li>
-                    <li><a href="#">Desempenho em jogos</a></li>
-                </ul>
-            </menu>
-    </header>
-   
-    <main class="conteiner">
-        <article class="conteudo">
-            <h1>Nvidia RTX 4090: tudo sobre a nova top de linha da marca</h1>
-
-            <h3>RTX 4090 roda qualquer jogo existente, mas é bastante exigente no consumo de energia</h3>
-
-            <img class="imagens-rtx" src="image/img-rtx4090.jpg" alt="imagem da rtx">
-
-            <p>
-                A Nvidia RTX 4090 é a placa de vídeo top de linha da Nvidia. Ela oferece processamento gráfico altíssimo, e é indicada não só para usuários que desejam alcançar as maiores taxas de quadros por segundo em todos os jogos já lançados até hoje, assim copo para profissionais que trabalham com renderização de ambientes em 3D.
-            </p>
-
-            <p>
-                Como sempre acontece no mundo da informática, desempenho alto também significa preço elevado. Assim, se você pretende comprar uma RTX 4090, prepare-se para colocar a mão bem fundo no bolso.
-            </p>
-
-            <p>
-                Além do grande poder de fogo (e de um preço salgado), a GPU conta com as já tradicionais tecnologias de Ray Tracing e DLSS da terceira geração, que garantem gráficos mais imersivos, com iluminação ultrarrealista, e melhor desempenho jogos, sem perder a qualidade gráfica.
-            </p>
-
-            <p>
-                Por exigir um grande investimento financeiro, fica a dúvida se vale a pena comprar uma NVIDIA RTX 4090, ou se é melhor escolher modelos mais básicos ou de gerações anteriores.
-            </p>
-
-            <p>
-                Para ajudar você, preparamos uma análise detalhada sobre a placa de vídeo, a qual você confere nas linhas a seguir.
-            </p>
-
-            <h1>
-                Ficha técnica da RTX 4090
-            </h1>
-
-            <ul>
-                <li class="topicos-ficha
-                "><strong>Lançameto:</strong> 09/2022</li>
-
-                <li class="topicos-ficha
-                "><strong>Linha:</strong> GeForce</li>
-
-                <li class="topicos-ficha
-                "><strong>Série:</strong> RTX</li>
-
-                <li class="topicos-ficha
-                "><strong>Fabricante</strong> NVIDIA</li>
-
-                <li class="topicos-ficha
-                "><strong>Velocidade de clock:</strong> 2,23GHz</li>
-
-                <li class="topicos-ficha
-                "><strong>Memória de Vídeo(VRAM):</strong> 24GB</li>
-
-                <li class="topicos-ficha
-                "><strong>Módulo de memória:</strong> GDDR6X</li>
-
-                <li class="topicos-ficha
-                "><strong>interface da memória:</strong> 384-bit</li>
-
-                <li class="topicos-ficha
-                "><strong>TDP:</strong> 450Wats</li>
+        <span id="menu-hamb" class="material-symbols-outlined" onclick="clickUp()">menu</span>
+        
+        <nav id="navbar">
+            <ul id="lista-nav">
+                <li class="itens-nav"><a href="#">Opção 1</a></li>
+                <li class="itens-nav"><a href="#">Opção 2</a></li>
+                <li class="itens-nav"><a href="#">Opção 3</a></li>
+                <li class="itens-nav"><a href="#">Opção 4</a></li>
+                <li class="itens-nav"><a href="#">Opção 5</a></li>
             </ul>
+        </nav>
+    </header>
+    <main id="container">
+        <h1>Testando Media Queries</h1>
 
-            <h1>Especificações técnicas da RTX 4090</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, voluptates laboriosam? Rem molestias fugit nesciunt, architecto consequuntur voluptates deserunt at voluptatum laboriosam ipsum dolor quisquam velit eveniet! Expedita, nihil porro! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus officiis aliquam hic quidem eum quod vel, perferendis odit ut enim ullam excepturi sed voluptas quam, adipisci doloremque accusamus architecto dicta?
+        </p>
 
-            <img class="imagens-rtx" src="image/rtx-4090.jpg" alt="imagem rtx 4090">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab voluptatem deserunt tempora impedit ut, atque asperiores nostrum illo nesciunt enim molestiae commodi illum, debitis alias amet ullam, in deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore illo at libero, rerum voluptates repudiandae dolorem ad deserunt odit nisi perferendis architecto vitae eaque est quaerat, aspernatur veniam, quis non.
+        </p>
 
-            <p>
-                A RTX 4090 entrega números surpreendentes em sua ficha técnica. Construída na mais nova arquitetura Ada Lovelace — terceira geração das arquiteturas RTX —, a placa de vídeo esbanja 16.384 núcleos CUDA, clock base de 2,23GHz e clock em boost de até 2,54GHz. Além disso, ela tem 24GB de memória GDDR6X operando em interface 384-bit.
-            </p>
-
-            <p>
-                Todos esses números podem ser traduzidos em desempenho. Ela tem procesamento gráfico de sobra em qualquer tarefa imaginável atualmente.
-            </p>
-
-            <p>
-                Ainda não existe jogo ou software que a GPU não consiga rodar com facilidade. Na prática, a placa de vídeo tem poder computacional de 82,6 TFLOPS, mais que o dobro da RTX 3090 Ti da geração anterior.
-            </p>
-
-            <p>
-                Porém, todo esse desempenho tem um custo que vai além do dinheiro. A Nvidia RTX 4090 tem TDP de 450 watts, e a NVIDIA recomenda usar uma fonte de energia de pelo menos 850 watts para que a placa funcione corretamente.
-            </p>
-
-            <p>
-                Em outras palavras, não basta ter somente a GPU para ganhar toda a performance. É preciso que os outros componentes do PC sejam tão potentes quanto ela.
-            </p>
-
-            <h1>Desempenho em jogos</h1>
-            <p>
-                Segundo informações oficiais da NVIDIA, a RTX 4090 supera, e muito, a RTX 3090 Ti em qualquer jogo.
-            </p>
-
-            <p>
-                A GPU mais recente é a escolha certa para quem quer rodar todos os títulos com a maior quantidade de quadros por segundo possível, com todas as configurações gráficas maximizadas. Mesmo em resoluções muito altas, como 4K.
-            </p>
-
-            <div class="conteiner-video">
-                <iframe class="video"src="https://www.youtube.com/embed/J5q3AlBfg2w?si=AGtP-Lyd5tkhNG-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-
-        </article>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus hic voluptatem, quia laudantium autem suscipit maiores. Facilis vel deserunt molestias. Repudiandae sint soluta nihil saepe vero accusantium libero architecto assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quis, accusamus ex exercitationem illum et? Atque consequatur quo praesentium, inventore harum, nostrum quaerat repudiandae, labore voluptatibus animi saepe laborum dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt rerum iste quia voluptatum porro possimus tempora quasi debitis quibusdam ratione asperiores dolorem molestias, exercitationem natus unde placeat amet doloremque autem?
+        </p>
     </main>
-    <script src="script.js"></script>
+    <footer>Criado por &copf;<a href="#">Gleydson Lucena</a></footer>
+    <script>
+        function clickUp() {
+            if(navbar.style.display == 'block') {
+                navbar.style.display = 'none'
+            } else {
+                navbar.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
