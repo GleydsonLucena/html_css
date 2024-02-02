@@ -72,6 +72,8 @@ nav .itens-nav {
     border-radius: 10px 10px 0px 0px;
 }
 
+
+
 main#container {
     background: white;
     margin: auto;
@@ -102,12 +104,12 @@ footer {
     font-family: var(--font01);
 }
 
-footer a {
+footer a, nav a {
     text-decoration: none;
     color: white;
 }
 
-footer a:hover {
+footer a:hover, nav a:hover{
     background: darkgrey;
     padding: 5px;
     border-radius: 10px;
