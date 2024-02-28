@@ -1,49 +1,12 @@
 
-.heading {
-    cursor: pointer;
-    transition: all .5s ease-in;
+
+ul li:nth-child(even) {
+    background-color: red;
+}
+ul li:nth-child(odd) {
+    background-color: green;
+}
+ul li:nth-child(3n+10) {
+    background-color: yellow;
 }
 
-.heading:hover {
-    background: red;
-}
-
-a {
-    color: darkorange;
-    text-decoration: none;
-}
-
-a:link {
-    color: blueviolet;
-}
-
-a:visited {
-    color: firebrick;
-}
-
-a:hover {
-    background: darkblue;
-    color: white;
-}
-
-a:active {
-    background: lightcoral;
-}
-
-input {
-    outline: none;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.486);
-}
-
-input:focus {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
-    outline: none;
-    border: none;
-    border-radius: 15px;
-}
-
-p:not(.meio) {
-    color: blue;
-}
