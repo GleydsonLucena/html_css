@@ -1,12 +1,15 @@
 
+ul li:after {
+    content: "-";
+    background-color: darkred;
+    color: #fff;
+    display: block;
+    height: 2px;
+    width: 20px;
+    opacity: 15%;
+}
 
-ul li:nth-child(even) {
-    background-color: red;
+ul li:hover {
+    opacity: 100%;
+    transition: 1s ease-in-out;
 }
-ul li:nth-child(odd) {
-    background-color: green;
-}
-ul li:nth-child(3n+10) {
-    background-color: yellow;
-}
-
