@@ -1,28 +1,18 @@
+/* Opa */
 
-ul li:after {
-    content: "-";
+/* ID 
+Classes, atributos e pseudo clasees
+paseudo elementos
+*/
+
+#p {
     background-color: darkred;
-    color: #fff;
-    display: block;
-    height: 2px;
-    width: 20px;
-    opacity: 15%;
 }
 
-ul li:hover {
-    opacity: 100%;
-    transition: 1s ease-in-out;
-}
-p::first-line {
-    font-size: 30px;
+.p {
+    background-color: yellow;
 }
 
-p::selection {
-    background: black;
-    color: white;
-}
-
-input::placeholder {
-    content-visibility: 100;
-
+p {
+    background-color: green;
 }
