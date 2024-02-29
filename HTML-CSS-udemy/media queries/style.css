@@ -1,0 +1,31 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    padding: 50px;
+}
+
+.container {
+    background: lightgray;
+    margin: 10px;
+    max-width: 800px;
+    height: 200px;
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 667px) {
+    .container {
+        width: 500px;
+
+    }
+}
