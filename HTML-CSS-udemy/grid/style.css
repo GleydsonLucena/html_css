@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 24px;
+}
+
+.two-collumns {
+    display: flex;
+}
+
+p {
+    margin:  0 0 24px;
+}
+ 
+.col {
+    display: flex;
+    flex-direction: column;
+
+    background-color: lightblue;
+    margin: 15px;
+    padding: 20px;
+}
+
+.galery {
+    flex-flow: row wrap;
+    display: flex;
+}
+
+.img {
+    flex: 1 0 20%;
+    height: 50px;
+    background-color: blue;
+    margin: 10px;
+}
